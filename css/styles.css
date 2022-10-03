@@ -1,0 +1,86 @@
+.font-family: "Oleo Script", cursive;
+
+.font-family: "Raleway", sans-serif;
+
+.font-family: "Roboto", sans-serif;
+
+.body {
+  background-color: #ffffff;
+}
+
+.main-section {
+  background-color: #2f303a;
+}
+
+.header {
+  background-color: #ececec;
+}
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.info-link {
+  color: #2196f3;
+}
+
+.phone-link {
+  color: #757575;
+}
+
+.contacts-link {
+  color: #212121;
+}
+
+.portfolio-link {
+  color: #212121;
+}
+
+.studio-link {
+  color: #2196f3;
+}
+
+.title {
+  color: #ffffff;
+}
+
+.button {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.title-benefits {
+  color: #212121;
+}
+
+.title-benefits-text {
+  color: #757575;
+}
+
+.title-activity {
+  color: #212121;
+}
+
+.workers {
+  color: #212121;
+}
+
+.profession {
+  color: #757575;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+
+.footer-link {
+  color: #ffffff;
+}
+
+.footer-email {
+  color: #ffffff;
+}
