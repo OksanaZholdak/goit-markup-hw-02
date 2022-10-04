@@ -1,5 +1,11 @@
+/* .link:hover */
+
 .body {
   background-color: #ececec;
+}
+
+ul {
+  list-style: none;
 }
 
 .main-section {
@@ -8,6 +14,15 @@
 
 .header {
   background-color: #ececec;
+}
+
+.header-title-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .team-section {
@@ -23,6 +38,7 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .footer {
   background-color: #2f303a;
 }
@@ -82,7 +98,10 @@
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -165,6 +184,15 @@
   color: #757575;
 }
 
+.footer-title-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .footer-address {
   font-family: "Roboto";
   font-style: normal;
@@ -204,6 +232,7 @@
   background-color: #f5f4fa;
   color: #212121;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -215,4 +244,8 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.span {
+  color: #2196f3;
 }
