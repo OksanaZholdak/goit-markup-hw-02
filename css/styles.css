@@ -203,16 +203,7 @@ ul {
   color: #ffffff;
 }
 
-.footer-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
+.footer-link,
 .footer-email {
   font-family: "Roboto";
   font-style: normal;
@@ -233,7 +224,11 @@ ul {
   color: #212121;
 }
 
-.visually-hidden {
+.button-portfolios :focus {
+  color: ;
+}
+
+. .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
