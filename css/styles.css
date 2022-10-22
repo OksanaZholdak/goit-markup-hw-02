@@ -19,14 +19,6 @@ ul {
   list-style: none;
 }
 
-a:hover {
-  color: var(--thirdly-text-color);
-}
-
-a:focus {
-  color: var(--thirdly-text-color);
-}
-
 .header {
   background-color: var(--accent-color);
 }
@@ -55,12 +47,23 @@ a:focus {
   color: var(--thirdly-text-color);
 }
 
+.studio-link:focus {
+  color: var(--thirdly-text-color);
+}
 .nav-link {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.nav-link:hover {
+  color: var(--thirdly-text-color);
+}
+
+.nav-link:focus {
+  color: var(--thirdly-text-color);
 }
 
 .contacts-link {
@@ -71,11 +74,25 @@ a:focus {
   color: var(--primary-text-color)\;
 }
 
+.contacts-link:hover {
+  color: var(--thirdly-text-color);
+}
+.contacts-link:focus {
+  color: var(--thirdly-text-color);
+}
+
 .contact-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+
+.contact-link:hover {
+  color: var(--thirdly-text-color);
+}
+.contact-link:focus {
+  color: var(--thirdly-text-color);
 }
 
 .phone-link {
@@ -86,13 +103,21 @@ a:focus {
   color: var(--secondary-text-color);
 }
 
+.phone-link:hover {
+  color: var(--thirdly-text-color);
+}
+
+.phone-link:focus {
+  color: var(--thirdly-text-color);
+}
+
 .main-section {
   background-color: var(--primary-text-color);
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -108,7 +133,7 @@ a:focus {
 }
 
 .button-portfolios:focus {
-  background-color: var(--thirdly-text-color);
+  background-color: var(--accent-color);
 }
 
 .visually-hidden {
@@ -196,14 +221,26 @@ a:focus {
   color: var(--accent-color);
 }
 
+.footer-addres:focus{
+  color: var(--thirdly-text-color);
+}
+
 .footer-link,
 .footer-email {
-  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-link,
+.footer-email:hover {
+  color: var(--thirdly-text-color);
+}
+
+.footer-link,
+.footer-email:focus {
+  color:var(--thirdly-text-color)
+}
 .logo-footer {
   color: var(--thirdly-text-color);
 }
