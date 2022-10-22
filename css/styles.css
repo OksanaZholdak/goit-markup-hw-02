@@ -5,6 +5,12 @@
   --thirdly-text-color: #2196f3;
 }
 
+.element-style {
+  font-family: "Roboto";
+font-size: 14px;
+background-color: var(--accent-color);
+color: var(--primary-text-color);
+}
 .body {
   font-family: "Roboto";
   font-style: normal;
@@ -12,9 +18,11 @@
   color: var(--primary-text-color);
   background-color: var(--accent-color);
 }
+
 .link {
   text-decoration: none;
 }
+
 ul {
   list-style: none;
 }
@@ -34,6 +42,10 @@ ul {
 
 .accent {
   color: var(--thirdly-text-color);
+}
+
+.studio {
+  color: var(--accent-color);
 }
 
 .studio-link {
@@ -136,6 +148,10 @@ ul {
   background-color: var(--accent-color);
 }
 
+.button-portfolios:hover {
+  background-color: var(--accent-color);
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -150,6 +166,9 @@ ul {
 }
 
 .benefits-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -171,7 +190,7 @@ ul {
   color: var(--primary-text-color);
 }
 
-.sections-title {
+.section-title {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -239,9 +258,11 @@ ul {
 
 .footer-link,
 .footer-email:focus {
+  font-style: normal;
   color:var(--thirdly-text-color)
 }
 .logo-footer {
+  font-size: 14px;
   color: var(--thirdly-text-color);
 }
 
