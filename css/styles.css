@@ -7,11 +7,12 @@
 
 .element-style {
   font-family: "Roboto";
-font-size: 14px;
-background-color: var(--accent-color);
-color: var(--primary-text-color);
+  font-size: 14px;
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
 }
-.body {
+
+body {
   font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
@@ -166,7 +167,6 @@ ul {
 }
 
 .benefits-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   line-height: 1.14;
