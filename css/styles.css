@@ -52,9 +52,13 @@ ul {
   color: var(--primary-text-color);
 }
 
-.studio-link,
-.studio-link,
-.current:focus,:hover {
+.studio-link:hover,
+.studio-link:focus,
+.current {
+  color: var(--thirdly-text-color);
+}
+
+.current {
   color: var(--thirdly-text-color);
 }
 
@@ -167,7 +171,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-size: 14px;
-  color: var(--primary-text-color);
+
 }
 
 .benefits-text {
@@ -247,4 +251,18 @@ ul {
 
 .button-portfolios:hover {
   color: var(--thirdly-text-color);
+}
+
+.title-benefits {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+
+.benefits-text {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
 }
