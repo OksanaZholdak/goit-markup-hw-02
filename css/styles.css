@@ -179,15 +179,10 @@ ul {
 .section-title {
   font-style: normal;
   font-weight: 700;
+  font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .team-name {
@@ -244,10 +239,6 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-}
-
-.footer-email:focus,:hover {
-  color: var(--thirdly-text-color);
 }
 
 .logo-footer {
